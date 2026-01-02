@@ -8,7 +8,7 @@ window.COURSES = [
     notes: '<p>This lesson covers JS syntax, variables, functions, and basic DOM manipulation. Try editing the browser console and experiment with small scripts.</p>',
     quiz: [
       { q: 'Which keyword declares a variable that cannot be reassigned?', options: ['var','let','const','function'], answer: 2 },
-      { q: 'What is the result of typeof null in JavaScript?', options: ['"null"','"object"','"undefined"','"number"'], answer: 1 },
+      { q: 'What is the result of typeof null in JavaScript?', options: ['null','object','undefined','number'], answer: 1 },
       { q: 'Which operator checks both value and type equality?', options: ['=','==','===','!='], answer: 2 },
       { q: 'What is the result of NaN === NaN?', options: ['true','false','throws error','undefined'], answer: 1 },
       { q: 'Which method adds a new element to the end of an array?', options: ['pop()','push()','shift()','unshift()'], answer: 1 },
@@ -21,7 +21,7 @@ window.COURSES = [
       { q: 'Which method returns an element by its ID only?', options: ['document.getElementById("app")','document.querySelector("#app")','document.getElementsByClassName("app")','$("#app")'], answer: 0 },
       { q: 'Which is the standard way to attach a click handler to an element?', options: ['onclick = fn','addEventListener("click", fn)','click(fn)','attach("click", fn)'], answer: 1 },
       { q: 'JSON stands for which of the following?', options: ['Java Standard Object Notation','JavaScript Object Notation','JavaScript Original Name','Just Simple Object Notation'], answer: 1 },
-      { q: 'What is the result of [] + [] in JavaScript?', options: ['0','"" (empty string)','"object"','NaN'], answer: 1 },
+      { q: 'What is the result of [] + [] in JavaScript?', options: ['0','(empty string)','object','NaN'], answer: 1 },
       { q: 'Which syntax creates an empty object literal?', options: ['new Object()','{}','Object.create(null)','createObject()'], answer: 1 },
       { q: 'Which array method checks whether at least one element passes a test?', options: ['every()','filter()','some()','map()'], answer: 2 },
       { q: 'Which operator spreads elements of an array into another array or function call?', options: ['&','*','... (spread)','@@'], answer: 2 },
