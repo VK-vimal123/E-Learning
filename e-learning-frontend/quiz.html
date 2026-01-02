@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quiz — E-Learning</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">E-Learn</h1>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="quiz">
+      <h2 id="quizTitle">Quiz</h2>
+      <form id="quizForm"></form>
+      <div id="quizResult" class="result"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2026 E-Learn.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    loadQuizFromPage();
+  </script>
+</body>
+</html>

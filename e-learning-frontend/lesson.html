@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Lesson — E-Learning</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">E-Learn</h1>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="lesson">
+      <h2 id="lessonTitle">Lesson Title</h2>
+      <div class="video-wrap" id="videoWrap">
+        <!-- embedded video will be injected here -->
+      </div>
+      <section id="lessonNotes" class="notes"></section>
+      <a id="toQuiz" class="btn primary" href="#">Take Quiz</a>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2026 E-Learn.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    // Load lesson using query param
+    loadLessonFromPage();
+  </script>
+</body>
+</html>

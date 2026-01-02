@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Courses — E-Learning</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">E-Learn</h1>
+      <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Courses</h2>
+      <p class="muted">Select a course to view lessons and quizzes.</p>
+    </section>
+
+    <section id="coursesGrid" class="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2026 E-Learn.</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+    // Immediately render courses
+    renderCourses(document.getElementById('coursesGrid'));
+  </script>
+</body>
+</html>
